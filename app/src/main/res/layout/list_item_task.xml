@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment" android:background="@drawable/background_activiated"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <LinearLayout android:id="@+id/image_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:id ="@+id/image_view"
+            android:paddingTop="4dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/images"/>
+
+        <TextView android:id="@+id/task_list_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:textStyle="bold"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" />
+
+        <TextView android:id="@+id/notification_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/task_list_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_below="@id/image_text"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Call Me Maybe</string>
+    <string name="name">Name</string>
+    <string name="what_name">Enter the name you want to contact</string>
+    <string name="contact">Contact</string>
+    <string name="new_contact">New?</string>
+    <string name="what_contact">Enter the phone number</string>
+    <string name="what_email">Enter the email address</string>
+    <string name="time">Time</string>
+    <string name="what_time">Pick a Time Here</string>
+    <string name="Form">Choose How to Contact</string>
+    <string name="email">Email</string>
+    <string name="call">Phone Call</string>
+    <string name="message">Text</string>
+    <string name="notes">Notes</string>
+    <string name="what_notes">Enter what you want to say</string>
+    <string name="action_add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="tasks_title">Tasks</string>
+    <string name="task_hint">Please Add Task</string>
+    <string name="Add_a_task">Add</string>
+    <string name="list_add_a_task">Add a Contact Task</string>
+    <string name="reminder_save">Exit Without Saving Changes?</string>
+    <string name="reminder_delete">Are You Sure You Want to Delete This Task?</string>
+    <string name="reminder">Create Tasks: Use ADD on the Action Bar \n\n Delete Tasks: Use Long Press</string>
+    <string name="start_contact">Contact</string>
+    <string name="warning">Warning: The Time You Set Has Passed! </string>
+    <string name="existing_contact">Choose From Contact List</string>
+    <string name="images">Image Description</string>
+    <string name="easy_contact">Contact</string>
+    <string name="modify">Modify</string>
+    <string name="warning_contact">Warning: Contacting Before Scheduled Time?</string>
+    <string name="alert_image">Alert Image</string>
+</resources>
